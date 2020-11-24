@@ -1,0 +1,69 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "待办"
+		}
+	}, {
+		"path": "pages/statistical/statistical",
+		"style": {
+			"navigationBarTitleText": "执行",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/mine/mine",
+		"style": {
+			"navigationBarTitleText": "统计",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/perform/perform",
+		"style": {
+			"navigationBarTitleText": "我的",
+			"enablePullDownRefresh": false
+		}
+
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Timee",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"color": "black",
+		"selectedColor": "#1296db",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/icon/tabbar/to-do.png",
+				"selectedIconPath": "static/img/icon/tabbar/to-do_active.png",
+				"text": "待办"
+			},
+			{
+				"pagePath": "pages/perform/perform",
+				"iconPath": "static/img/icon/tabbar/perform.png",
+				"selectedIconPath": "static/img/icon/tabbar/perform_active.png",
+				"text": "执行"
+			},
+			{
+				"pagePath": "pages/statistical/statistical",
+				"iconPath": "static/img/icon/tabbar/statistical.png",
+				"selectedIconPath": "static/img/icon/tabbar/statistical_active.png",
+				"text": "统计"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/img/icon/tabbar/mine.png",
+				"selectedIconPath": "static/img/icon/tabbar/mine_active.png",
+				"text": "我的"
+			}
+		]
+	}
+}

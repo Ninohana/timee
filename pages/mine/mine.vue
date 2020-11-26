@@ -78,7 +78,7 @@
 		color: #e3e3e3;
 	}
 
-	.config {
+	.user-config .config {
 		margin-bottom: 5px;
 	}
 </style>
